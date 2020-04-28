@@ -29,7 +29,7 @@ def sorted_matrix
     ORGANIC_PRODUCE,
     CONVENTIONAL_PRODUCE
   ]
-  nested_array[ORGANIC_PRODUCE].sort
+  sorted = nested_array[ORGANIC_PRODUCE].sort
   binding.pry
   # Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
