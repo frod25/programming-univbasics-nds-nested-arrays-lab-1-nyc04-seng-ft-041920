@@ -1,4 +1,4 @@
-# Examples inspired by U. S. National Organic Standards
+require "pry"
 
 ORGANIC_PRODUCE = [
   "Strawberries",
