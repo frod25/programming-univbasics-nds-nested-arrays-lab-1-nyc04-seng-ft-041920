@@ -30,6 +30,7 @@ def sorted_matrix
     CONVENTIONAL_PRODUCE
   ]
   nested_array[ORGANIC_PRODUCE].sort!
+  binding.pry
   # Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
@@ -45,3 +46,4 @@ def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
 end
+sorted_matrix
