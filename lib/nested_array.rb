@@ -21,6 +21,7 @@ def assembled_matrix
     ORGANIC_PRODUCE,
     CONVENTIONAL_PRODUCE
   ]
+  nested_array
 end
 
 def sorted_matrix
